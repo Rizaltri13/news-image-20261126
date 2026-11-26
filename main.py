@@ -468,7 +468,7 @@ def build():
     y += 8
     draw_para(cv, x, y,
               "26 entered Mon 23 Nov. River flood. Shaft ~100 m deep. "
-              "325 rescuers. 11 escaped. Police probe the illegal pit.",
+              "325 rescuers. Police probe the illegal pit.",
               1, INK, 50, 12)
 
     # Standfirst
@@ -478,14 +478,14 @@ def build():
     draw_para(cv, 28, y,
               "Twenty-six men went down the Mount Butak shafts on Monday. "
               "Heavy rain swelled the Ciseureuh river, floodwater poured "
-              "in, and 11 escaped. Pumps are draining the 100-metre shaft "
+              "in. Pumps are draining the 100-metre shaft "
               "as police open a probe into the illegal pit.",
               2, INK, 80, 18)
 
     # Facts strip
     cv.rect(28, 566, W - 56, 26, INK)
     draw_text_centered(cv, W // 2, 574,
-                       "26 ENTERED MONDAY  ·  11 ESCAPED  ·  325 RESCUERS  ·  "
+                       "26 ENTERED MONDAY  ·  100-M SHAFT  ·  325 RESCUERS  ·  "
                        "6 OF 13 DEAD IDENTIFIED", 1, WHITE)
 
     # Tiles
